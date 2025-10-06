@@ -134,17 +134,6 @@ g++ -std=c++11 -Wall -o ejercicio5 ejercicio5.cpp
 
 ---
 
-## Complejidad Algorítmica
-
-| Ejercicio | Operación Principal     | Complejidad  |
-| --------- | ----------------------- | ------------ |
-| 1         | Operaciones aritméticas | O(1)         |
-| 2         | Búsqueda de extremos    | O(n)         |
-| 3         | Conteo de caracteres    | O(n)         |
-| 4         | Cálculo de normas       | O(n) o O(mn) |
-| 5         | Inversión de matriz     | O(n³)        |
-
----
 
 ## Ejemplo de Ejecución
 
