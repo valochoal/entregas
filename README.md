@@ -4,7 +4,7 @@
 
 **Estudiantes:** Andrés Amaya, Jhoel Ospino y Valery Ochoa
 **Profesor:** Ing. Mauro Baquero-Suárez
-**Curso:** M.Sc. Automatización Industrial - Ingeniería Mecatrónica
+**Curso:** Programación Avanzada- Ingeniería Mecatrónica
 **Fecha:** Octubre 2025
 
 ---
@@ -57,13 +57,13 @@ g++ -std=c++11 -Wall -o ejercicio5 ejercicio5.cpp
 ./ejercicio5
 
 ---
-## Descripción de Cada Ejercicio
+# Descripción de Cada Ejercicio
 
-###  Ejercicio 1: Calculadora Básica (10%)
+#  Ejercicio 1: Calculadora Básica (10%)
 
-**Archivo:** `ejercicio1.cpp`
-**Funcionalidad:** Solicita dos números enteros y realiza las operaciones básicas de suma, resta, multiplicación y división, manejando el caso de división por cero.
-**Metodología:**
+Archivo: `ejercicio1.cpp`
+Funcionalidad: Solicita dos números enteros y realiza las operaciones básicas de suma, resta, multiplicación y división, manejando el caso de división por cero.
+Metodología:
 
 * Entrada de datos con `cin`
 * Validación de división
@@ -71,11 +71,11 @@ g++ -std=c++11 -Wall -o ejercicio5 ejercicio5.cpp
 
 ---
 
-###  Ejercicio 2: Búsqueda de Máximo y Mínimo (20%)
+#  Ejercicio 2: Búsqueda de Máximo y Mínimo (20%)
 
-**Archivo:** `ejercicio2.cpp`
-**Funcionalidad:** Encuentra el valor máximo y mínimo de un arreglo de números decimales y sus posiciones.
-**Metodología:**
+Archivo: `ejercicio2.cpp`
+Funcionalidad: Encuentra el valor máximo y mínimo de un arreglo de números decimales y sus posiciones.
+Metodología:
 
 * Uso de `std::vector<double>`
 * Búsqueda lineal O(n)
@@ -83,11 +83,11 @@ g++ -std=c++11 -Wall -o ejercicio5 ejercicio5.cpp
 
 ---
 
-### Ejercicio 3: Contador de Vocales (10%)
+# Ejercicio 3: Contador de Vocales (10%)
 
-**Archivo:** `ejercicio3.cpp`
-**Funcionalidad:** Cuenta el número total de vocales en una cadena, diferenciando mayúsculas y minúsculas.
-**Metodología:**
+Archivo: `ejercicio3.cpp`
+Funcionalidad: Cuenta el número total de vocales en una cadena, diferenciando mayúsculas y minúsculas.
+Metodología:
 
 * Manejo de cadenas con `std::string`
 * Uso de funciones `find()` y `tolower()`
@@ -95,11 +95,11 @@ g++ -std=c++11 -Wall -o ejercicio5 ejercicio5.cpp
 
 ---
 
-###  Ejercicio 4: Cálculo de Normas L1 y L2 (20%)
+#  Ejercicio 4: Cálculo de Normas L1 y L2 (20%)
 
-**Archivo:** `ejercicio4.cpp`
-**Funcionalidad:** Calcula las normas L1 (Manhattan) y L2 (Euclidiana) de un vector o matriz.
-**Metodología:**
+Archivo: `ejercicio4.cpp`
+Funcionalidad: Calcula las normas L1 (Manhattan) y L2 (Euclidiana) de un vector o matriz.
+Metodología:
 
 * Cálculo de sumas absolutas y raíces cuadradas
 * Implementación genérica para vectores y matrices
@@ -107,11 +107,11 @@ g++ -std=c++11 -Wall -o ejercicio5 ejercicio5.cpp
 
 ---
 
-###  Ejercicio 5: Inversa de Matriz (40%)
+#  Ejercicio 5: Inversa de Matriz (40%)
 
-**Archivo:** `ejercicio5.cpp`
-**Funcionalidad:** Calcula la inversa de una matriz cuadrada o la pseudoinversa de matrices no cuadradas.
-**Metodología:**
+Archivo: `ejercicio5.cpp`
+Funcionalidad: Calcula la inversa de una matriz cuadrada o la pseudoinversa de matrices no cuadradas.
+Metodología:
 
 * Eliminación de Gauss-Jordan con pivoteo parcial
 * Verificación de determinante
@@ -120,9 +120,9 @@ g++ -std=c++11 -Wall -o ejercicio5 ejercicio5.cpp
 
 ---
 
-## Librerías Utilizadas
+# Librerías Utilizadas
 
-```cpp
+cpp
 #include <iostream>
 #include <vector>
 #include <string>
@@ -135,11 +135,11 @@ g++ -std=c++11 -Wall -o ejercicio5 ejercicio5.cpp
 ---
 
 
-## Ejemplo de Ejecución
+# Ejemplo de Ejecución
 
-### Ejercicio 3 - Contador de Vocales
+# Ejercicio 3 - Contador de Vocales
 
-```
+
 === CONTADOR DE VOCALES ===
 Ingrese una cadena de caracteres: Programacion Avanzada
 
@@ -156,7 +156,7 @@ u: 0
 
 ---
 
-## Validaciones Implementadas
+# Validaciones Implementadas
 
 * División por cero
 * Arreglos vacíos o de tamaño inválido
